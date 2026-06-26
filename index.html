@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Analytics Portfolio</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --accent: #38bdf8;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 3rem 1.5rem 2rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    header h1 { margin: 0 0 .5rem; font-size: 2rem; }
+    header p { margin: 0; color: var(--muted); }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+    section { margin-bottom: 2.5rem; }
+    section h2 {
+      font-size: 1.25rem;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: .4rem;
+      margin-bottom: 1rem;
+    }
+    ul { list-style: none; margin: 0; padding: 0; }
+    li { margin: 0; }
+    a.item {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      padding: .85rem 1rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      text-decoration: none;
+      margin-bottom: .6rem;
+      transition: border-color .15s ease, transform .15s ease;
+    }
+    a.item:hover {
+      border-color: var(--accent);
+      transform: translateX(3px);
+    }
+    a.item .label { font-weight: 600; }
+    a.item .meta { color: var(--muted); font-size: .85rem; margin-left: auto; }
+    .icon { font-size: 1.2rem; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: .85rem;
+      padding: 2rem 1.5rem;
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Data Analytics Portfolio</h1>
+    <p>DATA 581 &middot; Gonzaga University</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Power BI Dashboards</h2>
+      <ul>
+        <li><a class="item" href="PowerBI/HR%20Demo.html">
+          <span class="icon">&#128202;</span><span class="label">HR Demo</span><span class="meta">Power BI</span></a></li>
+        <li><a class="item" href="PowerBI/Sales%20Demo.html">
+          <span class="icon">&#128202;</span><span class="label">Sales Demo</span><span class="meta">Power BI</span></a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Python Notebooks</h2>
+      <ul>
+        <li><a class="item" href="https://github.com/owensk/DataAnalyticsPortfolio/blob/main/Python/F1%20Computational%20Fluid%20Dynamics/F1%20Computational%20Fluid%20Dynamics.ipynb" target="_blank" rel="noopener">
+          <span class="icon">&#128013;</span><span class="label">F1 Computational Fluid Dynamics</span><span class="meta">.ipynb &#8599;</span></a></li>
+        <li><a class="item" href="https://github.com/owensk/DataAnalyticsPortfolio/blob/main/Python/Midterm%20Assessment%201.ipynb" target="_blank" rel="noopener">
+          <span class="icon">&#128013;</span><span class="label">Midterm Assessment 1</span><span class="meta">.ipynb &#8599;</span></a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Reports</h2>
+      <ul>
+        <li><a class="item" href="Reports/F1%20Computational%20Fluid%20Dynamics/HW1.html">
+          <span class="icon">&#128196;</span><span class="label">F1 Computational Fluid Dynamics &mdash; HW1</span><span class="meta">HTML</span></a></li>
+        <li><a class="item" href="Reports/Midterm%20Assessment%201.pdf">
+          <span class="icon">&#128196;</span><span class="label">Midterm Assessment 1</span><span class="meta">PDF</span></a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>SQL</h2>
+      <ul>
+        <li><a class="item" href="https://github.com/owensk/DataAnalyticsPortfolio/blob/main/SQL/SQL_Demo.sql" target="_blank" rel="noopener">
+          <span class="icon">&#128451;</span><span class="label">SQL Demo</span><span class="meta">.sql &#8599;</span></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    Source on <a href="https://github.com/owensk/DataAnalyticsPortfolio" target="_blank" rel="noopener">GitHub</a>
+  </footer>
+</body>
+</html>

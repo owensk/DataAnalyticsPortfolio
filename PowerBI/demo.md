@@ -1,6 +1,0 @@
-# HR Demo
-https://app.powerbi.com/view?r=eyJrIjoiMGNkYzQ5YWYtOThkNy00YmIyLTkxNTktMGY4NDgxZWZlYzM0IiwidCI6IjJiYTMzNDA3LTVjY2MtNDk0MC1iZDE2LWFlMTU0ZjA0YzNjYSIsImMiOjZ9
-
-# Sales Demo
-https://app.powerbi.com/view?r=eyJrIjoiMzRjODhiMzYtN2M3NS00YTg1LWJkYTctZGU1ZGQ0YTFlZThjIiwidCI6IjJiYTMzNDA3LTVjY2MtNDk0MC1iZDE2LWFlMTU0ZjA0YzNjYSIsImMiOjZ9
-
